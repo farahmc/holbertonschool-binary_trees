@@ -38,6 +38,11 @@ int binary_tree_balance(const binary_tree_t *tree)
 
 	return (diff);
 }
+/**
+ * binary_tree_is_perfect - finds if binary tree is perfect
+ * @tree: pointer to root node
+ * Return: if tree is NULL return 0, otherwise 1
+ */
 
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
